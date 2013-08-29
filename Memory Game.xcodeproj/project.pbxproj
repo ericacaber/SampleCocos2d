@@ -139,8 +139,20 @@
 		0742D34B17CC901200E664DD /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 0742D34A17CC901200E664DD /* vec4.c */; };
 		0742D35017CC901200E664DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D34F17CC901200E664DD /* main.m */; };
 		0742D35317CC901200E664DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D35217CC901200E664DD /* AppDelegate.m */; };
-		0742D35617CC901200E664DD /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D35517CC901200E664DD /* HelloWorldLayer.m */; };
 		0742D35917CC901200E664DD /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D35817CC901200E664DD /* IntroLayer.m */; };
+		0742D36117CC92CC00E664DD /* MTMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D36017CC92CC00E664DD /* MTMenuLayer.m */; };
+		0742D36617CC96DB00E664DD /* MTMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D36517CC96DB00E664DD /* MTMenuScene.m */; };
+		0742D36C17CC9C7300E664DD /* MTPlayfieldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0742D36B17CC9C7300E664DD /* MTPlayfieldScene.m */; };
+		076B857617CEF90800315149 /* MTPlayfieldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 076B857517CEF90800315149 /* MTPlayfieldLayer.m */; };
+		076B857C17CEF97B00315149 /* memorysheet-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 076B857817CEF97B00315149 /* memorysheet-hd.plist */; };
+		076B857D17CEF97B00315149 /* memorysheet-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 076B857917CEF97B00315149 /* memorysheet-hd.png */; };
+		076B857E17CEF97B00315149 /* memorysheet.plist in Resources */ = {isa = PBXBuildFile; fileRef = 076B857A17CEF97B00315149 /* memorysheet.plist */; };
+		076B857F17CEF97B00315149 /* memorysheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 076B857B17CEF97B00315149 /* memorysheet.png */; };
+		076B858317CF243C00315149 /* MTMemoryTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 076B858217CF243C00315149 /* MTMemoryTile.m */; };
+		076B858917CF3B1A00315149 /* button.caf in Resources */ = {isa = PBXBuildFile; fileRef = 076B858517CF3B1A00315149 /* button.caf */; };
+		076B858A17CF3B1A00315149 /* buzzer.caf in Resources */ = {isa = PBXBuildFile; fileRef = 076B858617CF3B1A00315149 /* buzzer.caf */; };
+		076B858B17CF3B1A00315149 /* harprun.caf in Resources */ = {isa = PBXBuildFile; fileRef = 076B858717CF3B1A00315149 /* harprun.caf */; };
+		076B858C17CF3B1A00315149 /* whoosh.caf in Resources */ = {isa = PBXBuildFile; fileRef = 076B858817CF3B1A00315149 /* whoosh.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -421,10 +433,26 @@
 		0742D34F17CC901200E664DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0742D35117CC901200E664DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0742D35217CC901200E664DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0742D35417CC901200E664DD /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		0742D35517CC901200E664DD /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		0742D35717CC901200E664DD /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		0742D35817CC901200E664DD /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		0742D35F17CC92CC00E664DD /* MTMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMenuLayer.h; sourceTree = "<group>"; };
+		0742D36017CC92CC00E664DD /* MTMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMenuLayer.m; sourceTree = "<group>"; };
+		0742D36417CC96DB00E664DD /* MTMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMenuScene.h; sourceTree = "<group>"; };
+		0742D36517CC96DB00E664DD /* MTMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMenuScene.m; sourceTree = "<group>"; };
+		0742D36A17CC9C7300E664DD /* MTPlayfieldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayfieldScene.h; sourceTree = "<group>"; };
+		0742D36B17CC9C7300E664DD /* MTPlayfieldScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayfieldScene.m; sourceTree = "<group>"; };
+		076B857417CEF90800315149 /* MTPlayfieldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPlayfieldLayer.h; sourceTree = "<group>"; };
+		076B857517CEF90800315149 /* MTPlayfieldLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPlayfieldLayer.m; sourceTree = "<group>"; };
+		076B857817CEF97B00315149 /* memorysheet-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "memorysheet-hd.plist"; sourceTree = "<group>"; };
+		076B857917CEF97B00315149 /* memorysheet-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "memorysheet-hd.png"; sourceTree = "<group>"; };
+		076B857A17CEF97B00315149 /* memorysheet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = memorysheet.plist; sourceTree = "<group>"; };
+		076B857B17CEF97B00315149 /* memorysheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = memorysheet.png; sourceTree = "<group>"; };
+		076B858117CF243C00315149 /* MTMemoryTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMemoryTile.h; sourceTree = "<group>"; };
+		076B858217CF243C00315149 /* MTMemoryTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMemoryTile.m; sourceTree = "<group>"; };
+		076B858517CF3B1A00315149 /* button.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = button.caf; sourceTree = "<group>"; };
+		076B858617CF3B1A00315149 /* buzzer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = buzzer.caf; sourceTree = "<group>"; };
+		076B858717CF3B1A00315149 /* harprun.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = harprun.caf; sourceTree = "<group>"; };
+		076B858817CF3B1A00315149 /* whoosh.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whoosh.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -485,12 +513,15 @@
 		0742D1C017CC900E00E664DD /* Memory Game */ = {
 			isa = PBXGroup;
 			children = (
+				076B858017CF241200315149 /* Sprite */,
+				0742D36317CC96B300E664DD /* Scene */,
+				0742D36217CC96A400E664DD /* Layer */,
 				0742D35117CC901200E664DD /* AppDelegate.h */,
 				0742D35217CC901200E664DD /* AppDelegate.m */,
-				0742D35417CC901200E664DD /* HelloWorldLayer.h */,
-				0742D35517CC901200E664DD /* HelloWorldLayer.m */,
 				0742D35717CC901200E664DD /* IntroLayer.h */,
 				0742D35817CC901200E664DD /* IntroLayer.m */,
+				076B857717CEF97B00315149 /* spritesheets */,
+				076B858417CF3B1A00315149 /* audio */,
 				0742D1C117CC900E00E664DD /* Resources */,
 				0742D1D917CC900F00E664DD /* libs */,
 				0742D34D17CC901200E664DD /* Supporting Files */,
@@ -879,6 +910,59 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0742D36217CC96A400E664DD /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				0742D35F17CC92CC00E664DD /* MTMenuLayer.h */,
+				0742D36017CC92CC00E664DD /* MTMenuLayer.m */,
+				076B857417CEF90800315149 /* MTPlayfieldLayer.h */,
+				076B857517CEF90800315149 /* MTPlayfieldLayer.m */,
+			);
+			name = Layer;
+			sourceTree = "<group>";
+		};
+		0742D36317CC96B300E664DD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0742D36417CC96DB00E664DD /* MTMenuScene.h */,
+				0742D36517CC96DB00E664DD /* MTMenuScene.m */,
+				0742D36A17CC9C7300E664DD /* MTPlayfieldScene.h */,
+				0742D36B17CC9C7300E664DD /* MTPlayfieldScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		076B857717CEF97B00315149 /* spritesheets */ = {
+			isa = PBXGroup;
+			children = (
+				076B857817CEF97B00315149 /* memorysheet-hd.plist */,
+				076B857917CEF97B00315149 /* memorysheet-hd.png */,
+				076B857A17CEF97B00315149 /* memorysheet.plist */,
+				076B857B17CEF97B00315149 /* memorysheet.png */,
+			);
+			path = spritesheets;
+			sourceTree = "<group>";
+		};
+		076B858017CF241200315149 /* Sprite */ = {
+			isa = PBXGroup;
+			children = (
+				076B858117CF243C00315149 /* MTMemoryTile.h */,
+				076B858217CF243C00315149 /* MTMemoryTile.m */,
+			);
+			name = Sprite;
+			sourceTree = "<group>";
+		};
+		076B858417CF3B1A00315149 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				076B858517CF3B1A00315149 /* button.caf */,
+				076B858617CF3B1A00315149 /* buzzer.caf */,
+				076B858717CF3B1A00315149 /* harprun.caf */,
+				076B858817CF3B1A00315149 /* whoosh.caf */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -942,6 +1026,14 @@
 				0742D1D517CC900F00E664DD /* Icon@2x.png in Resources */,
 				0742D1D817CC900F00E664DD /* iTunesArtwork in Resources */,
 				0742D33117CC901200E664DD /* ChangeLog in Resources */,
+				076B857C17CEF97B00315149 /* memorysheet-hd.plist in Resources */,
+				076B857D17CEF97B00315149 /* memorysheet-hd.png in Resources */,
+				076B857E17CEF97B00315149 /* memorysheet.plist in Resources */,
+				076B857F17CEF97B00315149 /* memorysheet.png in Resources */,
+				076B858917CF3B1A00315149 /* button.caf in Resources */,
+				076B858A17CF3B1A00315149 /* buzzer.caf in Resources */,
+				076B858B17CF3B1A00315149 /* harprun.caf in Resources */,
+				076B858C17CF3B1A00315149 /* whoosh.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1062,8 +1154,12 @@
 				0742D34B17CC901200E664DD /* vec4.c in Sources */,
 				0742D35017CC901200E664DD /* main.m in Sources */,
 				0742D35317CC901200E664DD /* AppDelegate.m in Sources */,
-				0742D35617CC901200E664DD /* HelloWorldLayer.m in Sources */,
 				0742D35917CC901200E664DD /* IntroLayer.m in Sources */,
+				0742D36117CC92CC00E664DD /* MTMenuLayer.m in Sources */,
+				0742D36617CC96DB00E664DD /* MTMenuScene.m in Sources */,
+				0742D36C17CC9C7300E664DD /* MTPlayfieldScene.m in Sources */,
+				076B857617CEF90800315149 /* MTPlayfieldLayer.m in Sources */,
+				076B858317CF243C00315149 /* MTMemoryTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1173,6 +1269,7 @@
 				0742D35E17CC901200E664DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
